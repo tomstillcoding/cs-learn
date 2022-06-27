@@ -1,0 +1,15 @@
+{
+  "name": "CS-College",
+  "version": "1.0.0",
+  "description": "⭐一个计算机系的笔记仓库，所有人都可往这个仓库里面增加你的笔记，一定要保证你的笔记内容是你自己总结的，并且按照规定提交PR，让我们共同维护这样一个仓库！",
+  "main": "index.js",
+  "author": "tom",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.48"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
