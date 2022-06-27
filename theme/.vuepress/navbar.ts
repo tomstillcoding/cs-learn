@@ -4,7 +4,7 @@ export default navbar([
 //   "/",
     // "test",
 //   { text: "guide", icon: "creative", link: "/guide/" },
-  { text: "指南", icon: "creative", link: "/tutorial/"},
+  { text: "指南", link: "/tutorial/"},
 
 
 //   {

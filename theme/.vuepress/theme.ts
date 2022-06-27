@@ -3,12 +3,12 @@ import navbar from "./navbar";
 import sidebar from "./sidebar";
 
 export default hopeTheme({
-  hostname: "",
+//   hostname: "",
 
-  author: {
-    name: "汤姆还在写代码",
-    url: "",
-  },
+//   author: {
+//     name: "汤姆还在写代码",
+//     url: "",
+//   },
 
 //   iconAssets: "iconfont",
 
@@ -18,7 +18,7 @@ export default hopeTheme({
 
   repo: "https://github.com/tomstillcoding/cs-college",
 
-  docsDir: "demo/src",
+//   docsDir: "demo/src",
 
   // navbar
   navbar: navbar,
@@ -70,11 +70,11 @@ pageInfo: ["Author", "Original", "Date", "ReadingTime"],
     //   // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
     // },
 
-    mdEnhance: {
-    //   enableAll: true,
-      presentation: {
-        plugins: ["highlight", "math", "search", "notes", "zoom"],
-      },
-    },
+    // mdEnhance: {
+    // //   enableAll: true,
+    //   presentation: {
+    //     plugins: ["highlight", "math", "search", "notes", "zoom"],
+    //   },
+    // },
   },
 });

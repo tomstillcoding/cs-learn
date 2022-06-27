@@ -4,10 +4,10 @@ title: 首页
 heroImage: /logo.png
 actions:
   - text: 指南
-    link: /home/guide/
+    link: /tutorial/
     type: primary
   - text: 项目简介
-    link: /home/introduce/
+    link: /tutorial/
     type: secondary
 features:
   - title: 多路线
@@ -32,9 +32,6 @@ footer: MIT Licensed | Copyright © 2022-present 汤姆还在写代码
 
 ### 用起来像写 Hello World 一样容易
 
-<CodeGroup>
-  <CodeGroupItem title="C" active>
-
 ```c
 #include <stdio.h>
 
@@ -46,6 +43,3 @@ int main() {
 
 }
 ```
-</CodeGroupItem>
-
-</CodeGroup>

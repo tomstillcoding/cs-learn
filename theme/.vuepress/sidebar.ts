@@ -3,11 +3,11 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar(
     
     {
-        "/guide/" : "structure",
+        // "/guide/" : "structure",
         
-        "/tutorial/" : "structure",
+        "/tutorial/" : "structure"
 
-        "/posts/" : "structure",
+        // "/posts/" : "structure",
     }
 
 
