@@ -4,7 +4,11 @@ export default navbar([
 //   "/",
     // "test",
 //   { text: "guide", icon: "creative", link: "/guide/" },
-  { text: "指南", link: "/tutorial/"},
+  { text: "公告牌", link: "/board/"},
+  { text: "大学专区", link: "/college/"},
+  { text: "技术路线", link: "/roadmap/"},
+  { text: "编程语言", link: "/language/"},
+  { text: "关于", link: "/about/"},
 
 
 //   {

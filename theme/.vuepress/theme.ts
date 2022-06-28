@@ -5,10 +5,10 @@ import sidebar from "./sidebar";
 export default hopeTheme({
 //   hostname: "",
 
-//   author: {
-//     name: "汤姆还在写代码",
-//     url: "",
-//   },
+  author: {
+    name: "汤姆还在写代码",
+    url: "https://space.bilibili.com/165087084",
+  },
 
 //   iconAssets: "iconfont",
 
@@ -31,7 +31,7 @@ export default hopeTheme({
   displayFooter: true,
 
 //   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
-pageInfo: ["Author", "Original", "Date", "ReadingTime"],
+// pageInfo: ["Author", "Original", "Date", "ReadingTime"],
 
   encrypt: {
     config: {
@@ -70,11 +70,11 @@ pageInfo: ["Author", "Original", "Date", "ReadingTime"],
     //   // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
     // },
 
-    // mdEnhance: {
-    // //   enableAll: true,
-    //   presentation: {
-    //     plugins: ["highlight", "math", "search", "notes", "zoom"],
-    //   },
-    // },
+    mdEnhance: {
+    //   enableAll: true,
+      presentation: {
+        plugins: ["highlight", "math", "search", "notes", "zoom"],
+      },
+    },
   },
 });

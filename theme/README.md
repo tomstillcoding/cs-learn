@@ -4,10 +4,10 @@ title: 首页
 heroImage: /logo.png
 actions:
   - text: 指南
-    link: /tutorial/
+    link: /about/tutorial
     type: primary
   - text: 项目简介
-    link: /tutorial/
+    link: /about/introduce/
     type: secondary
 features:
   - title: 多路线

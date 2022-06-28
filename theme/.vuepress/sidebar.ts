@@ -5,7 +5,11 @@ export default sidebar(
     {
         // "/guide/" : "structure",
         
-        "/tutorial/" : "structure"
+        "/board/": "structure",
+        "/college/": "structure",
+        "/roadmap/": "structure",
+        "/language/": "structure",
+        "/about/" : "structure",
 
         // "/posts/" : "structure",
     }
