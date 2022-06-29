@@ -1,10 +1,7 @@
 ---
-title: 公告牌
+title: 【公告牌】指南
 
 index: false
 ---
 
-# 关于
-## 目录
-
-- [大厂实训机会](lesson.md)
+施工中
