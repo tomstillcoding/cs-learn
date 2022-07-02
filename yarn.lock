@@ -4160,6 +4160,16 @@ vuepress-plugin-feed2@2.0.0-beta.84:
     vuepress-shared "2.0.0-beta.84"
     xml-js "^1.6.11"
 
+vuepress-plugin-giscus@^2.0.0-alpha.25:
+  version "2.0.0-alpha.25"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-giscus/-/vuepress-plugin-giscus-2.0.0-alpha.25.tgz#90db38ec55c98a50acf4b817942f2c76338cae07"
+  integrity sha512-QpmzjXqnxNJaRBZwKMP5AmC6Pr0cdAxspB7yj1nJWtuiIstZCQUB39nFY6pJKfk407al2hetJNtPhqaYXws1OQ==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.48"
+    "@vuepress/core" "2.0.0-beta.48"
+    "@vuepress/utils" "2.0.0-beta.48"
+    vue "^3.2.36"
+
 vuepress-plugin-md-enhance@2.0.0-beta.84:
   version "2.0.0-beta.84"
   resolved "https://registry.npmmirror.com/vuepress-plugin-md-enhance/-/vuepress-plugin-md-enhance-2.0.0-beta.84.tgz#59e40a4c3fa0d2f7ac86fc441dcc37e392cfad4e"

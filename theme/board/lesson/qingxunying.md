@@ -3,7 +3,7 @@ title: 【2022.6.24】字节跳动青训营
 # order: 1
 ---
 
-![post](/board/lesson/640.jpg)
+![](https://images-tomcode-1258913748.cos.ap-guangzhou.myqcloud.com/202207012134921.jpg)
 
 ### 评价
 
