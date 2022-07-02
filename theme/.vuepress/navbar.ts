@@ -1,26 +1,26 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
-    { text: "公告牌", link: "/board/"},
-    { text: "大学专区", link: "/college/"},
-    { text: "技术路线", link: "/roadmap/"},
+    { text: "公告牌", link: "/board"},
+    { text: "大学专区", link: "/college"},
+    { text: "技术路线", link: "/roadmap"},
     {
         text: "编程语言", 
-        prefix: "/language/",
+        prefix: "/language",
         children: 
         [
             {
                 text: "后端",
                 prefix: "",
                 children: [
-                    { text: "C++", link: "cpp/"},
-                    { text: "Golang", link: "go/"}
+                    { text: "C++", link: "/cpp"},
+                    { text: "Golang", link: "/go"}
                 ]
             },
         ]
     },
 
-  { text: "关于", link: "/about/"},
+  { text: "关于", link: "/about"},
 
 
 //   {
