@@ -45,6 +45,3 @@ title: 【2022.6.24】字节跳动青训营
 [第四届字节跳动青训营宣传大使](https://mp.weixin.qq.com/s/f80L_m9wq-KLlBac74Em9Q)
 
 
-
-![](https://images-tomcode-1258913748.cos.ap-guangzhou.myqcloud.com/20220704001647.png)
-
