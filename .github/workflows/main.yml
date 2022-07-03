@@ -30,6 +30,9 @@ jobs:
         
       - name: yarn version
         run: yarn --version
+        
+      - name: yarn
+        run: yarn
 
       - name: yarn build
         run: yarn run docs:build
