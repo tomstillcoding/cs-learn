@@ -71,7 +71,7 @@ Golang（就是Go、Go语言）作为一门近几年在大厂中非常流行的�
 
 选择你认为比较好的学习路线参考，然后自己规划自己的学习路线，是最合适的选择，任何一条学习路线并不会完美地适合每一个人。
 
-[🖱️点击查看原路线图所在GitHub仓库open in new window](https://github.com/Alikhll/golang-developer-roadmap)
+[🖱️点击查看原路线图所在GitHub仓库](https://github.com/Alikhll/golang-developer-roadmap)
 
 ## Awesome Go
 

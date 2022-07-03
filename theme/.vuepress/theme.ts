@@ -25,6 +25,9 @@ export default hopeTheme({
   editLink: true,
   copyright: "Copyright © <汤姆还在写代码> ",
   displayFooter: true,
+  lastUpdated: false,
+  breadcrumb: false,
+
 
 //   fullscreen: true,
 

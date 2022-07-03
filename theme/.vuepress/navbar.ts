@@ -1,11 +1,11 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
-    { text: "公告牌", link: "/board"},
+    { text: "公告牌", link: "/board/1-qingxunying.md"},
     { text: "大学专区", link: "/college"},
-    { text: "技术路线", link: "/roadmap"},
+    // { text: "技术路线", link: "/roadmap"},
     {
-        text: "编程语言", 
+        text: "学习计划", 
         prefix: "/language",
         children: 
         [
@@ -20,7 +20,7 @@ export default navbar([
         ]
     },
 
-  { text: "关于", link: "/about"},
+  { text: "关于", link: "/about/1-tutorial.md"},
 
 
 //   {
