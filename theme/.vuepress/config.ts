@@ -2,6 +2,8 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme";
 import { path } from "@vuepress/utils";
 
+
+
 export default defineUserConfig({
   lang: "zh-CN",
   title: "CS-College ",
@@ -11,8 +13,9 @@ export default defineUserConfig({
 
   theme,
 
-  alias: {
-    "@mIFrame": path.resolve(__dirname, "components/mIframe.vue"),
-  },
+      alias: {
+        "@mIFrame": path.resolve(__dirname, "components/mIframe.vue"),
+      },
+    
 
 });
