@@ -8,7 +8,7 @@
             "client": {
                 "use": "@cloudbase/framework-plugin-website",
                 "inputs": {
-                    "buildCommand": "yarn run docs:build",
+                    "buildCommand": "npm run docs:build",
                     "outputPath": "theme/.vuepress/dist",
                     "cloudPath": "/"
                 }
