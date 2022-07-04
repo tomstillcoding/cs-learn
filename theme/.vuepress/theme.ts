@@ -3,6 +3,8 @@ import navbar from "./navbar";
 import sidebar from "./sidebar";
 
 
+
+
 export default hopeTheme({
   hostname: "https://tomcode.xyz",
   logo: "/logo.png",
@@ -28,11 +30,6 @@ export default hopeTheme({
   lastUpdated: false,
   breadcrumb: false,
 
-
-//   fullscreen: true,
-
-
-  
   plugins: {
 
     components: [
@@ -60,7 +57,17 @@ export default hopeTheme({
         mark: true,
         container: true,
     },
+
+    
+
+
+
+
+
+
   },
+
+  
 });
 
 
@@ -71,4 +78,3 @@ export default hopeTheme({
 // </script>
 // <mIFrame src="https://player.bilibili.com/player.html?aid=90992146&cid=155380603&page=1&danmaku=0&high_quality=1"/>
 // <mIFrame />
-
