@@ -23,7 +23,7 @@ export default hopeTheme({
 
   docsDir: "/theme",
   pageInfo: ["Author", "ReadingTime", "Word"],
-  contributors: true,
+  contributors: false,
   editLink: true,
   copyright: "Copyright © <汤姆还在写代码> ",
   displayFooter: true,
