@@ -27,7 +27,6 @@ features:
 
   - title: 只有精品
     details: 路线、资料不在多，在于精炼，资料的堆砌只会让人眼花缭乱，根本不可能看完，优秀的同学们、大厂工程师们都一致认可、评分高的资料。
-footer: MIT Licensed | Copyright © 2022-present 汤姆还在写代码
 ---
 
 ### 用起来像写 Hello World 一样容易
