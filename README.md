@@ -1,3 +1,3 @@
-# CS-College
+# CS-Learn
  
-临时页面：https://tomcode.xyz
+临时页面：tomcode.xyz
