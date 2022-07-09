@@ -6,7 +6,9 @@ index: 1
 
 ---
 
+## 项目地址
 
+GitHub: [tomstillcoding/cs-learn-project](https://github.com/tomstillcoding/cs-learn-project/tree/main/search-project)
 
 ## 项目简介
 
