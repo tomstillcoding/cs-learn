@@ -80,11 +80,11 @@ Spring Boot，MySQL，MyBatis
 
 2、用data表和segment表生成data_segment_relation表
 
-![image-20220709205927765](../../../../../Library/Application Support/typora-user-images/image-20220709205927765.png)
+![](https://images-tomcode-1258913748.cos.ap-guangzhou.myqcloud.com/202207092105642.png)
 
 3、一次搜索：欧美连衣裙
 
-![image-20220709205921902](../../../../../Library/Application Support/typora-user-images/image-20220709205921902.png)
+![](https://images-tomcode-1258913748.cos.ap-guangzhou.myqcloud.com/202207092106786.png)
 
 ### 增强方向
 
