@@ -36,7 +36,7 @@ features:
 
 int main() {
 
-   printf("Hello, CS-College!");
+   printf("Hello, CS-Learn!");
 
    return 0;
 
