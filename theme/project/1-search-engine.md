@@ -8,10 +8,9 @@ index: 1
 
 ## 项目地址
 
-GitHub: [tomstillcoding/cs-learn-project](https://github.com/tomstillcoding/cs-learn-project/tree/main/search-project)
+在结尾～
 
 ## 项目简介
-
 原项目地址：**[bytedance-youthcamp-search-engine](https://github.com/optimjie/bytedance-youthcamp-search-engine)**
 
 当初小明同学问我，如果做一个项目的话，是做一个抖音App出来呢，还是做一个搜索引擎呢？
@@ -95,3 +94,7 @@ Spring Boot，MySQL，MyBatis
    1. 爬虫：真实的搜索引擎，数据肯定是要不断更新的，不断喂给本地的数据库的，也就是说搜索引擎搜出来的东西，内容+链接怎么得到呢？其实就是爬虫，不断爬每个网页，以及获取网页里面的url，继续爬，继续喂到数据库，源源不断，那么就需要一个专门的爬虫服务器去做这件事情了，所以为啥百度最近几年很伤心呢，因为互联网越来越封闭了，各个app全部都在自己的生态玩，根本不给你爬虫的机会，你爬不到我的网站，那你这搜索引擎有啥用呢？
    2. 推荐：搜出来的结果排序方式，项目是相关度搜出来排序一次，那假设有个网站给我钱，说让我把搜索结果里面的它搞到第一去，那是不是可以帮帮他呢，广告挣钱钱？或者说，千人千面？每个用户同样的关键词搜出来的东西不一样？个性化推荐？
    3. 数据处理：项目里是一次性把数据源（data表）中的内容进行处理，多出来了分词表和分词数据关系表，那要是有几百几千个TB的数据，要你快速处理完，生成分词和分词数据关系？那就涉及到并分布式并行计算了，嗯？又看到了CMU分布式系统设计这门课了？第一个大作业就是实现Google的MapReduce论文，真是流畅的学习计划啊 ( ^‐^)_且~~
+
+## 项目地址
+
+GitHub: [tomstillcoding/cs-learn-project](https://github.com/tomstillcoding/cs-learn-project/tree/main/search-project)
