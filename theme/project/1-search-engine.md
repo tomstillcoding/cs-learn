@@ -77,11 +77,11 @@ Spring Boot，MySQL，MyBatis
 
 1、将爬虫爬来的数据放入data表中，从data表中处理数据生成segment表
 
-![](https://images-tomcode-1258913748.cos.ap-guangzhou.myqcloud.com/202207092059326.png)
+![](https://images-tomcode-1258913748.cos.ap-guangzhou.myqcloud.com/202207101840263.png)
 
 2、用data表和segment表生成data_segment_relation表
 
-![](https://images-tomcode-1258913748.cos.ap-guangzhou.myqcloud.com/202207092105642.png)
+![](https://images-tomcode-1258913748.cos.ap-guangzhou.myqcloud.com/202207101840585.png)
 
 3、一次搜索：欧美连衣裙
 
