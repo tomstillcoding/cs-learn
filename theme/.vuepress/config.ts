@@ -7,7 +7,7 @@ const { readmorePlugin } = require('vuepress-plugin-readmore-popular-next')
 export default defineUserConfig({
   lang: "zh-CN",
   title: "CS-Learn ",
-  description: "👩🏻‍💻🧑🏻‍💻 既然知道学校教得一般，那为什么还要跟着学校的课程安排呢？",
+  description: "👩🏻‍💻🧑🏻‍💻 有没有一种可能，学编程、学计算机，缺的不是资料和教程，而是方向感？",
 
   base: "/",
 
