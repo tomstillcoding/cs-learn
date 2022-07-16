@@ -10,6 +10,7 @@ export default sidebar(
         "/college/": "structure",
         "/roadmap/": "structure",
         "/language/": "structure",
+        "/skill/": "structure",
         "/about/" : "structure",
 
         // "/posts/" : "structure",
