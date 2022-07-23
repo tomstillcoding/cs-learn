@@ -3,12 +3,12 @@
     "envId": "{{env.ENV_ID}}",
     "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
     "framework": {
-        "name": "cs-college",
+        "name": "cs-learn",
         "plugins": {
             "client": {
                 "use": "@cloudbase/framework-plugin-website",
                 "inputs": {
-                    "buildCommand": "yarn run docs:build",
+                    "buildCommand": "npm run docs:build",
                     "outputPath": "theme/.vuepress/dist",
                     "cloudPath": "/"
                 }

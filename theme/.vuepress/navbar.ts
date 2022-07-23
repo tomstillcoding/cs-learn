@@ -1,9 +1,10 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
-    { text: "公告牌", link: "/board/1-qingxunying.md"},
+    { text: "最近更新", link: "/board/1-qingxunying.md"},
+    { text: "视频项目", link: "/project/1-search-engine.md"},
     { text: "大学专区", link: "/college"},
-    // { text: "技术路线", link: "/roadmap"},
+    { text: "学习指南", link: "/skill"},
     {
         text: "学习计划", 
         prefix: "/language",

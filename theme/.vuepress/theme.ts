@@ -3,11 +3,13 @@ import navbar from "./navbar";
 import sidebar from "./sidebar";
 
 
+
+
 export default hopeTheme({
-  hostname: "https://tomcode.xyz",
+  hostname: "https://www.tomcode.xyz",
   logo: "/logo.png",
-  author: "汤姆还在写代码",
-  repo: "https://github.com/tomstillcoding/cs-college",
+//   author: "汤姆还在写代码",
+  repo: "https://github.com/tomstillcoding/cs-learn",
   navbar: navbar,
   sidebar: sidebar,
 
@@ -21,18 +23,15 @@ export default hopeTheme({
 
   docsDir: "/theme",
   pageInfo: ["Author", "ReadingTime", "Word"],
-  contributors: true,
+  contributors: false,
   editLink: true,
-  copyright: "Copyright © <汤姆还在写代码> ",
+//   copyright: "Copyright © <汤姆还在写代码> ",
   displayFooter: true,
+  footer: '<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2022084398号</a> ｜ Copyright © <汤姆还在写代码> ',
   lastUpdated: false,
   breadcrumb: false,
 
 
-//   fullscreen: true,
-
-
-  
   plugins: {
 
     components: [
@@ -44,7 +43,7 @@ export default hopeTheme({
     // 为了避免打扰主题开发者以及消耗他的资源，请不要在你的正式环境中直接使用下列配置!!!!!
     comment: {
       provider: "Giscus",
-      repo: "tomstillcoding/cs-college",
+      repo: "tomstillcoding/cs-learn",
       repoId: "R_kgDOHkbORg",
       category: "General",
       categoryId: "DIC_kwDOHkbORs4CQATq",
@@ -60,7 +59,17 @@ export default hopeTheme({
         mark: true,
         container: true,
     },
+
+    
+
+
+
+
+
+
   },
+
+  
 });
 
 
@@ -71,4 +80,3 @@ export default hopeTheme({
 // </script>
 // <mIFrame src="https://player.bilibili.com/player.html?aid=90992146&cid=155380603&page=1&danmaku=0&high_quality=1"/>
 // <mIFrame />
-

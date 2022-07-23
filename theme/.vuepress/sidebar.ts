@@ -6,9 +6,11 @@ export default sidebar(
         // "/guide/" : "structure",
         
         "/board/": "structure",
+        "/project/": "structure",
         "/college/": "structure",
         "/roadmap/": "structure",
         "/language/": "structure",
+        "/skill/": "structure",
         "/about/" : "structure",
 
         // "/posts/" : "structure",
