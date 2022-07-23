@@ -14,7 +14,8 @@ export default navbar([
                 prefix: "",
                 children: [
                     { text: "C++", link: "/cpp"},
-                    { text: "Golang", link: "/go"}
+                    { text: "Golang", link: "/go"},
+                    { text: "Java", link: "/java"},
                 ]
             },
         ]
