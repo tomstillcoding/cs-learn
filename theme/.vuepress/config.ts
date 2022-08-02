@@ -20,7 +20,7 @@ export default defineUserConfig({
       plugins: [
         readmorePlugin({
             enable: true,
-            blogId: '14177-6564058171562-722',
+            blogId: '81094-7239398466281-672',
             name: '汤姆还在写代码',
             keyword: 'tom',
             qrcode: 'https://images-tomcode-1258913748.cos.ap-guangzhou.myqcloud.com/202207042307558.png',
@@ -38,6 +38,7 @@ export default defineUserConfig({
           expires: 365,
           // 定时校验凭证有效性的时间间隔（秒）
           interval: 30,
+          height: 'auto',
           // 每篇文章随机添加引流工具的概率，有效范围在 0.1 ~ 1 之间，1 则表示所有文章默认都自动添加引流工具
           random: 1
         })
