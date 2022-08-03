@@ -6,6 +6,6 @@ order: 1
 
 
 ## 目录
-- [【Redis】学习指南](1-redis.md)
-
+- [【MySQL】](1-mysql.md)
+- [【Redis】](2-redis.md)
 

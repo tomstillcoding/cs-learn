@@ -1,7 +1,7 @@
 ---
-title: 【Redis】学习指南
+title: Redis
 
-index: 1
+index: 2
 
 
 ---

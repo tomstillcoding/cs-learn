@@ -4,7 +4,21 @@ export default navbar([
     { text: "最近更新", link: "/board/1-qingxunying.md"},
     { text: "视频项目", link: "/project/1-search-engine.md"},
     { text: "大学专区", link: "/college"},
-    { text: "学习指南", link: "/skill"},
+    {
+        text: "学习指南",
+        prefix: "/skill",
+        children:
+        [
+            {
+                text: "后端",
+                prefix: "",
+                children: [
+                    { text: "MySQL", link: "/1-backend/1-mysql"},
+                    { text: "Redis", link: "/1-backend/2-redis"},
+                ]
+            }
+        ]
+    },
     {
         text: "学习计划", 
         prefix: "/language",
