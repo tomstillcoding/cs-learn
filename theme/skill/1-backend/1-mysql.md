@@ -3,14 +3,21 @@ title: MySQL
 
 index: 1
 
-
 ---
 
 # 【大厂校招生】如何学习MySQL
 
 > 所有本文章需要用到的资源，在最下面，关注公众号【汤姆还在写代码】，拉到最底下就可以看到相关链接
 
-## 一、学会使用
+## 一、为什么要学习？
+
+没办法，如果搞后台开发，工作中大概率会用到，而面试基本上是必考知识点，所以肯定也要学。
+
+如果你做前端什么的别的工种，不需要和数据库打交道的话，不学这个也行。但是互联网里面很大一部分同学基本都是做的后台/后端开发，并且在科班上课的时候，虽然是以数据库系统理论知识为主，但是在介绍理论的实践时候，通常都会选择MySQL作为例子，实践课上也大概率需要用到MySQL，如果用到微软的Access什么的，可能是因为老师的课件太久没更新了，还是不要跟着老师学比较好。
+
+当然，正式一点地说，后端研发岗位，数据库的知识是必须的，所谓后端，做的不过就是增删改查，高级一点的不过就是在更快、更稳定地增删改查而已，而增删改查最终落地到硬盘，用到数据库是必然的。
+
+## 二、学会使用
 
 ### （1）《MySQL必知必会》⭐️⭐️⭐️
 
@@ -32,11 +39,11 @@ index: 1
 
 **(不推荐，不过是个刷题的去处)**
 
-如果你想额外去练习MySQL里面使用的SQL语句，可以直接去**[力扣leetcode的数据库题目](https://leetcode.cn/problemset/database/)**这里去练习，不过我其实并不是特别推荐，因为MySQL必知必会中的内容就已经够了，刷题倒是没有太大的意义。
+如果你想额外去练习MySQL里面使用的SQL语句，可以直接去[力扣leetcode的数据库题目](https://leetcode.cn/problemset/database/)这里去练习，不过我其实并不是特别推荐，因为MySQL必知必会中的内容就已经够了，刷题倒是没有太大的意义。
 
 ![](https://images-tomcode-1258913748.cos.ap-guangzhou.myqcloud.com/202207282055535.png)
 
-## 二、系统性学习
+## 三、系统性学习
 
 ### （1）《数据库系统概念》
 
@@ -48,7 +55,7 @@ index: 1
 
 > 相关资源：
 >
-> [byterotate/Book](https://github.com/byterotate/Book/blob/master/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E6%A6%82%E5%BF%B5%EF%BC%88%E4%B8%AD%E6%96%87%E7%AC%AC%E5%85%AD%E7%89%88%EF%BC%89.pdf)
+> [《数据库系统概念》](https://github.com/byterotate/Book/blob/master/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E6%A6%82%E5%BF%B5%EF%BC%88%E4%B8%AD%E6%96%87%E7%AC%AC%E5%85%AD%E7%89%88%EF%BC%89.pdf)
 >
 > [《数据库系统概念》](https://study.guoch.xyz/Books/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E4%B8%9A%E5%87%BA%E7%89%88%E7%A4%BE%E9%BB%91%E7%9A%AE%E4%B9%A6/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E6%A6%82%E5%BF%B5%20%20%E5%8E%9F%E4%B9%A6%E7%AC%AC6%E7%89%88_13013764.pdf?preview)
 >
@@ -78,63 +85,60 @@ index: 1
 >
 > [《MySQL是怎样运行的》](https://www.manongbook.com/download/2225.html)
 
-### （3）《MySQL技术内幕：InnoDB存储引擎》⭐️⭐️⭐️
+## 四、“三巨头”
+
+> 完成了前三步，基本上已经是对MySQL有了非常充分的认识和了解了，如果你真的还要深入，你在网上查资料，或者去问一些经验丰富的工程师，他们可能会给你推荐这三个资料，不过呢，这三本资料虽然各有各的侧重点，但是并不是特别适合新手，或者是学校里面的同学、校招生这样的人群，毕竟学习是永无止境的，如果在一个MySQL上花的时间太多了，可能你都变得没那么感兴趣了，看书的效率也许会下降不少，毕竟计算机这个专业还有很多其他非常有意思、有趣的东西可以去学习。
 
 
 
-### （4）《高性能MySQL》
+> 所以，这部分的内容，因人而异，愿意阅读的话，可以挑选感兴趣的来看看～
 
-[《Redis设计与实现》](https://book.douban.com/subject/25900156/)
+### （1）《MySQL技术内幕：InnoDB存储引擎》
 
-![](https://images-tomcode-1258913748.cos.ap-guangzhou.myqcloud.com/202207161645480.png)
+学完《MySQL是怎样运行的》，你肯定知道MySQL底层的存储引擎是可以更换的，并且我们大部分时间可能都花在了学习使用InnoDB存储引擎上面，因此这本书就着重给你讲解InnoDB存储引擎中的原理。
 
-系统性学习Redis设计与实现的方式，可以阅读的书就是《Redis》设计与实现，这本书在入门知识讲解和源码展示之间把控得很好，非常适合入门的时候阅读，知识图谱如下：
+相比于前面的学习，这里偏重于存储引擎，有的和《MySQL是怎样运行的》重叠，有的并没有，我一直是觉得，书能多看就多看，多看几本书讲解同样的内容，也许你会有新的理解和认识，对于之前错误认识的纠错，或是加深对某些概念的理解，并且在有了之前学习的基础之后，遇到已经熟悉的内容，就完全可以跳过，只看那些其他书没有的知识就好。
 
-![](https://images-tomcode-1258913748.cos.ap-guangzhou.myqcloud.com/202207161634329.png)
+这本书和《高性能MySQL》一样，经常出现在各个MySQL学习资料推荐上。
 
-[Redis设计与实现思维导图下载](https://images-tomcode-1258913748.cos.ap-guangzhou.myqcloud.com/Redis知识点.xmind)
+![](https://images-tomcode-1258913748.cos.ap-guangzhou.myqcloud.com/202208042309967.png)
 
-### 三、Redis断点调试、源码简单阅读与验证
+> [MySQL技术内幕：InnoDB存储引擎(GitHub)](https://github.com/wususu/effective-resourses/blob/master/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL%E6%8A%80%E6%9C%AF%E5%86%85%E5%B9%95(InnoDB%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E)%E7%AC%AC2%E7%89%88.pdf)
+>
+> [MySQL技术内幕：InnoDB存储引擎(GitHub)](https://awesome-programming-books.github.io/mysql/MySQL%E6%8A%80%E6%9C%AF%E5%86%85%E5%B9%95%EF%BC%9AInnoDB%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E.pdf)
+>
+> [MySQL技术内幕：InnoDB存储引擎(博客)](http://itmyhome.com/mysql-innodb/mysql-innodb.pdf)
+>
+> [MySQL技术内幕：InnoDB存储引擎(网盘)](https://www.manongbook.com/download/365.html)
 
-1、下载 [redis](https://github.com/redis) 官方代码
+### （2）《高性能MySQL》
 
-2、使用 make 或者使用 Clion 构建，推荐使用Clion，后续调试也比较方便
+这本书就比较蛋疼了。
 
-3、阅读代码、验证代码、改造代码
+怎么说呢，你要明白它的标题，定义得非常清楚，这不是一本基础书，不是让你学会使用MySQL，也不是让你很熟练地使用MySQL的，更不会简单聊聊原理，或者帮助你解决面试，可以说它的主题就是：优化与设计，极致榨干使用MySQL的性能。
 
-![](https://images-tomcode-1258913748.cos.ap-guangzhou.myqcloud.com/202207161715686.png)
+那不就对了，咱们是来学习使用的，还远远不到解决MySQL的性能问题的那个地步，等是时候了再看吧，看看它的目录，都已经聊到固态硬盘的基准测试和选型了，开发还是运维？你先记得看看[目录](https://book.douban.com/subject/23008813/)在考虑是不是要学习这本书......
 
-![](https://images-tomcode-1258913748.cos.ap-guangzhou.myqcloud.com/202207161715784.png) 
+![](https://images-tomcode-1258913748.cos.ap-guangzhou.myqcloud.com/202208042321429.png)
 
-## 进阶（看个人兴趣）
+> [高性能MySQL](https://github.com/caijc00/programmer_bookshelf_cn/blob/master/%E6%95%B0%E6%8D%AE%E5%BA%93/%E9%AB%98%E6%80%A7%E8%83%BDMySQL%20%E7%AC%AC3%E7%89%88%20%E4%B8%AD%E6%96%87%20.pdf)
+>
+> [高性能MySQL](https://juejin.cn/post/6976290766876311559)
+>
+> [高性能MySQL](https://www.manongbook.com/download/47.html)
 
-### 一、通过工作、实践来利用Redis实现一些功能模块：
+### （3）《MySQL实战45讲》
 
-1、比如Redis实现消息队列的方式、针对业务做性能优化、配合数据库的缓存策略、如何解决一致性问题、解决生产场景中雪崩、击穿、穿透等难题、Redis实现分布式锁、集群和分布式相关问题、脑裂、秒杀、并发等。
+为了防止打广告的嫌疑，我在这里就不去说是哪里的课程了，毕竟是需要知识付费的，价格也不低。
 
-要么只有工作之后写了相关的代码，才能说你自己真正掌握了这一条，要么就学一些网上的文章吧，只能说了解了一下这些难题，但是并没有实际的生产经验，不过校招生无所谓，校招生怎么可能有生产经验呢，所以只是学习学习就好。确实有一些不错的网上要花钱的课，可以搜一下， 比如《Redis核心技术与实战》
+这个资料偏实战，前半部分比较基础，实际上学完《MySQL是怎样运行的》基本上就够了，后半部分个人感觉有点运维，或者说DBA？再或者说比较偏优化？有一些实际生产中遇到的例子，比较有意思，但是如果是咱们在校生看的话，比较容易陷入纸上谈兵的漩涡。
 
-2、  Redis仅作为方案设计中的一环，比如说在手机QQ中的频道功能，也就是类似Discord的频道、分tag、话题的方式，如何同时支持十万人同频道聊天，缓存、消息队列在这样的需求中所处的位置在什么地方？如何用数据给予方案证明，业内常见的实现方案是否有可以借鉴的地方，当然这只不过是在纸上谈兵，但是作为了解、学习来说还是很重要的。
+也许将来有机会实际工作了，上手MySQL的使用了，需要你实现具体的需求了，再来学习可能会更适合。
 
-### 二、魔改Redis源码，实现某些特定的需求
+题外话：最近45讲的作者，就是下面这位大牛，深陷借钱风波啊，网上的人说，借了很多身边的人钱，包括下属、朋友的钱，来做投资，结果负债累累，大家投资也要谨慎啊，杠杆虽好，注意控制风险，找人借钱相当于透支信用，并没有明确止损价格，很容易就是一念成魔了。
 
-![](https://images-tomcode-1258913748.cos.ap-guangzhou.myqcloud.com/202207161716970.png)
+![](https://images-tomcode-1258913748.cos.ap-guangzhou.myqcloud.com/202208042301739.png)
 
-1、魔改Redis-client，各种语言都有，C++、Python、Java，都可以去魔改客户端，更熟悉Redis了。
-
-2、阅读Github Redis仓库中的Issues以及Pull requests，有很多开源社区需要解决的问题，以及对用户的答疑都会放在这个地方，要么可以进入开源社区，针对这些问题去答疑，刷存在感，一定程度后许多开源项目的负责人会邀请你进入相关频道，比如Discord等，就有机会真正去改造开源项目。
-
-3、针对业务去自己学习Redis源码，自己撸出来架构图，比如类之间的关系，UML、实体关系图、事件+时间驱动的时候，运行状态的流转形式，或者自己写文章，从点到面，先写文章介绍小的模块，慢慢把模块串起来，最后形成自己的知识体系和理解，也可以帮助到更多的人理解这样一个项目。
-
-比如，先针对简单字符串，仔细阅读完所有源码（在看完《Redis设计与实现》之后，这一步应该相当简单），然后写文章仔细谈谈你的理解，String类型的设计与实现，最后甚至魔改，增加一种String的底层数据结构（前提是构思出一种能够解决的场景，比如某种特定情况下，比String的三种底层数据结构更高效的实现方式，时刻记住，没有银弹！）
-
-## 资料
-
-- [【菜鸟教程】Redis](https://www.runoob.com/redis/redis-tutorial.html)
-- Redis设计与实现
-  - [下载资源链接1](https://www.52doc.com/detail/8)
-  - [下载资源链接2](https://www.manongbook.com/db/190.html)
-  - [下载资源链接3](https://juejin.cn/post/6927836596402126855)
-- [Redis源代码GitHub仓库](https://github.com/redis/redis)
-- [Redis核心技术与实战](http://118.25.23.115/)
-
+> [MySQL实战45讲(需要购买)](https://time.geekbang.org/column/intro/100020801)
+>
+> [MySQL实战45讲(嘘!)](https://funnylog.gitee.io/mysql45/)
