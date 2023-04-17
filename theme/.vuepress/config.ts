@@ -6,8 +6,8 @@ const { readmorePlugin } = require('vuepress-plugin-readmore-popular-next')
 
 export default defineUserConfig({
   lang: "zh-CN",
-  title: "CS-Learn ",
-  description: "👩🏻‍💻🧑🏻‍💻 有没有一种可能，学编程、学计算机，缺的不是资料和教程，而是方向感？",
+  title: "大学之道",
+  description: "🎓 大学生最缺的不是学习，不是能力，而是信息。",
 
   base: "/",
 
