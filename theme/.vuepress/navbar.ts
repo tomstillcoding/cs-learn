@@ -1,22 +1,23 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
-    { text: "必读", link: "/about/1-tutorial.md"},
+    { text: "必读", link: "/pay/pay.md"},
     {
-        text: "大学时光",
-        prefix: "/skill",
+        text: "大学",
+        prefix: "/university",
         children:
         [
             {
                 text: "转瞬即逝的四年",
                 prefix: "",
                 children: [
-                    { text: "大一：人生的新的篇章", link: "/1-backend/1-mysql"},
+                    { text: "高考暑假：最好的暑假", link: "/1-summer/"},
+                    { text: "大一：人生的新的篇章", link: "/2-freshman"},
                     { text: "大二：懵懂又快乐的每一天", link: "/1-backend/2-redis"},
                     { text: "大三：人生基调的决定", link: "/1-backend/2-redis"},
                     { text: "大四：今宵别梦寒", link: "/1-backend/2-redis"},
                 ]
-            }
+            },
         ]
     },
     {
