@@ -18,7 +18,7 @@ export default sidebar(
     // }
     {
         "/university/1-summer/": [
-            "/university/1-summer/",
+            "/university/1-summer/1-tutorial",
             {
                 text: "一、连接互联网",
                 prefix: "/1-internet/",

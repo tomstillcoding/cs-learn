@@ -3,19 +3,30 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
     { text: "必读", link: "/pay/pay.md"},
     {
-        text: "大学",
+        text: "高考暑假",
         prefix: "/university",
         children:
         [
             {
-                text: "转瞬即逝的四年",
-                prefix: "",
+                text: "高考暑假：最好的暑假",
+                prefix: "/1-summer",
                 children: [
-                    { text: "高考暑假：最好的暑假", link: "/1-summer/"},
-                    { text: "大一：人生的新的篇章", link: "/2-freshman"},
-                    { text: "大二：懵懂又快乐的每一天", link: "/1-backend/2-redis"},
-                    { text: "大三：人生基调的决定", link: "/1-backend/2-redis"},
-                    { text: "大四：今宵别梦寒", link: "/1-backend/2-redis"},
+                    { text: "高考暑假：最好的暑假", link: "/1-tutorial"},
+                ]
+            },
+            {
+                text: "一、连接互联网",
+                prefix: "/1-summer",
+                children: [
+                    { text: "联网须知", link: "/1-internet/1-tutorial"},
+                ]
+            },
+            {
+                text: "二、考驾照",
+                prefix: "/1-summer",
+                children: [
+                    { text: "考驾照流程", link: "/2-driver/1-tutorial"},
+                    { text: "考驾照建议", link: "/2-driver/2-tips"},
                 ]
             },
         ]
