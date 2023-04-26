@@ -19,25 +19,11 @@ export default sidebar(
     {
         "/university/1-summer/": [
             "/university/1-summer/1-tutorial",
-            {
-                text: "一、连接互联网",
-                prefix: "/1-internet/",
-                // link: "asdfa",
-                collapsable: true,
-                children: [
-                    "/university/1-summer/1-internet/1-tutorial",
-                ]
-            },
-            {
-                text: "二、考驾照",
-                prefix: "/2-driver/",
-                // link: "asdfa",
-                collapsable: true,
-                children: [
-                    "/university/1-summer/2-driver/1-tutorial",
-                    "/university/1-summer/2-driver/2-tips"
-                ]
-            },
+            "/university/1-summer/2-internet",
+            "/university/1-summer/3-driver",
+            "/university/1-summer/4-pc",
+            "/university/1-summer/5-group",
+            "/university/1-summer/6-play",
         ],
     }
     

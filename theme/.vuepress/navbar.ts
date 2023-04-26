@@ -3,7 +3,7 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
     { text: "必读", link: "/pay/pay.md"},
     {
-        text: "高考暑假",
+        text: "大学",
         prefix: "/university",
         children:
         [
@@ -11,24 +11,15 @@ export default navbar([
                 text: "高考暑假：最好的暑假",
                 prefix: "/1-summer",
                 children: [
-                    { text: "高考暑假：最好的暑假", link: "/1-tutorial"},
+                    { text: "高考暑假：如何安排？", link: "/1-tutorial"},
+                    { text: "一、连上互联网", link: "/2-internet"},
+                    { text: "二、考驾照", link: "/3-driver"},
+                    { text: "三、买电脑", link: "/4-pc"},
+                    { text: "四、混新生圈", link: "/5-group"},
+                    { text: "五、玩", link: "/6-play"}
                 ]
             },
-            {
-                text: "一、连接互联网",
-                prefix: "/1-summer",
-                children: [
-                    { text: "联网须知", link: "/1-internet/1-tutorial"},
-                ]
-            },
-            {
-                text: "二、考驾照",
-                prefix: "/1-summer",
-                children: [
-                    { text: "考驾照流程", link: "/2-driver/1-tutorial"},
-                    { text: "考驾照建议", link: "/2-driver/2-tips"},
-                ]
-            },
+            
         ]
     },
     {
