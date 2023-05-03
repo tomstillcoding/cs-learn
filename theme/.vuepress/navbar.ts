@@ -35,6 +35,7 @@ export default navbar([
                     { text: "考研", link: "/1-backend/2-redis"},
                     { text: "跨专业", link: "/1-backend/2-redis"},
                     { text: "研究生与本科生", link: "/1-backend/2-redis"},
+                    { text: "找导师", link: "/1-backend/2-redis"},
                 ]
             }
         ]
