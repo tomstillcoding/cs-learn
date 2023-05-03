@@ -25,6 +25,10 @@ export default sidebar(
             "/university/1-summer/5-group",
             "/university/1-summer/6-play",
         ],
+        "/university/2-freshman": [
+            "/university/2-freshman/1-tutorial",
+            "/university/2-freshman/2-pt",
+        ]
     }
     
 

@@ -3,25 +3,165 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
     { text: "必读", link: "/pay/pay.md"},
     {
-        text: "大学",
+        text: "高考暑假",
         prefix: "/university",
         children:
         [
             {
-                text: "高考暑假：最好的暑假",
+                text: "高考暑假",
                 prefix: "/1-summer",
                 children: [
-                    { text: "高考暑假：如何安排？", link: "/1-tutorial"},
-                    { text: "一、连上互联网", link: "/2-internet"},
-                    { text: "二、考驾照", link: "/3-driver"},
-                    { text: "三、买电脑", link: "/4-pc"},
-                    { text: "四、混新生圈", link: "/5-group"},
+                    { text: "如何安排？", link: "/1-tutorial"},
+                    { text: "一、真正连上互联网", link: "/2-internet"},
+                    { text: "二、一定要考驾照", link: "/3-driver"},
+                    { text: "三、购买笔记本电脑", link: "/4-pc"},
+                    { text: "四、混新生圈的艺术", link: "/5-group"},
                     { text: "五、玩", link: "/6-play"}
                 ]
             },
-            
         ]
     },
+    {
+        text: "大一",
+        prefix: "/university",
+        children:
+        [
+            {
+                text: "大一生活",
+                prefix: "/2-freshman",
+                children: [
+                    { text: "如何安排？", link: "/1-tutorial"},
+                    { text: "一、大学的娱乐中心：PT站", link: "/2-pt"},
+                    { text: "二、解析班干部", link: "/3-test"},
+                    { text: "三、那些学生组织的秘密", link: "/3-test"},
+                    { text: "四、那些学生社团的秘密", link: "/3-test"},
+                    { text: "五、大学如何考试才正确", link: "/3-test"},
+                    { text: "六、破局：转专业与双学位", link: "/3-test"},
+                    { text: "七、军训的潜规则", link: "/3-test"},
+                    { text: "八、万花筒篇", link: "/3-test"},
+                ]
+            },
+        ]
+    },
+    {
+        text: "大二",
+        prefix: "/university",
+        children:
+        [
+            {
+                text: "大二生活",
+                prefix: "/2-freshman",
+                children: [
+                    { text: "如何安排？", link: "/1-tutorial"},
+                    { text: "一、专业课的选择", link: "/3-test"},
+                    { text: "二、好好选择竞赛和比赛", link: "/3-test"},
+                    { text: "三、", link: "/3-test"},
+                ]
+            },
+        ]
+    },
+    {
+        text: "大三",
+        prefix: "/university",
+        children:
+        [
+            {
+                text: "大三生活",
+                prefix: "/2-freshman",
+                children: [
+                    { text: "如何安排？", link: "/1-tutorial"},
+                    { text: "一、大学的娱乐中心：PT站", link: "/2-pt"},
+                    { text: "二、解析班干部", link: "/3-test"},
+                    { text: "三、那些学生组织的秘密", link: "/3-test"},
+                    { text: "四、那些学生社团的秘密", link: "/3-test"},
+                    { text: "五、大学如何考试才正确", link: "/3-test"},
+                    { text: "六、破局：转专业与双学位", link: "/3-test"},
+                    { text: "七、军训的潜规则", link: "/3-test"},
+                    { text: "八、万花筒篇", link: "/3-test"},
+                ]
+            },
+        ]
+    },
+    {
+        text: "大四",
+        prefix: "/university",
+        children:
+        [
+            {
+                text: "大四生活",
+                prefix: "/2-freshman",
+                children: [
+                    { text: "如何安排？", link: "/1-tutorial"},
+                    { text: "一、大学的娱乐中心：PT站", link: "/2-pt"},
+                    { text: "二、解析班干部", link: "/3-test"},
+                    { text: "三、那些学生组织的秘密", link: "/3-test"},
+                    { text: "四、那些学生社团的秘密", link: "/3-test"},
+                    { text: "五、大学如何考试才正确", link: "/3-test"},
+                    { text: "六、破局：转专业与双学位", link: "/3-test"},
+                    { text: "七、军训的潜规则", link: "/3-test"},
+                    { text: "八、万花筒篇", link: "/3-test"},
+                ]
+            },
+        ]
+    },
+    // {
+    //     text: "大学",
+    //     prefix: "/university",
+    //     children:
+    //     [
+    //         {
+    //             text: "高考暑假",
+    //             prefix: "/1-summer",
+    //             children: [
+    //                 { text: "如何安排？", link: "/1-tutorial"},
+    //                 { text: "一、真正连上互联网", link: "/2-internet"},
+    //                 { text: "二、一定要考驾照", link: "/3-driver"},
+    //                 { text: "三、购买笔记本电脑", link: "/4-pc"},
+    //                 { text: "四、混新生圈的艺术", link: "/5-group"},
+    //                 { text: "五、玩", link: "/6-play"}
+    //             ]
+    //         },
+    //         {
+    //             text: "大一生活",
+    //             prefix: "/2-freshman",
+    //             children: [
+    //                 { text: "如何安排？", link: "/1-tutorial"},
+    //                 { text: "一、大学的娱乐中心：PT站", link: "/2-pt"},
+    //                 { text: "二、解析班干部", link: "/3-test"},
+    //                 { text: "三、那些学生组织的秘密", link: "/3-test"},
+    //                 { text: "四、那些学生社团的秘密", link: "/3-test"},
+    //                 { text: "五、大学如何考试才正确", link: "/3-test"},
+    //                 { text: "六、破局：转专业与双学位", link: "/3-test"},
+    //                 { text: "七、军训的潜规则", link: "/3-test"},
+    //                 { text: "八、万花筒篇", link: "/3-test"},
+    //             ]
+    //         },
+    //         {
+    //             text: "大二生活",
+    //             prefix: "/3-sophomore",
+    //             children: [
+    //                 { text: "如何安排？", link: "/1-tutorial"},
+    //                 { text: "一、专业课的选择", link: "/3-test"},
+    //                 { text: "二、好好选择竞赛和比赛", link: "/3-test"},
+    //                 { text: "三、", link: "/3-test"},
+    //             ]
+    //         },
+    //         {
+    //             text: "大三生活",
+    //             prefix: "/4-senior",
+    //             children: [
+                    
+    //             ]
+    //         },
+    //         {
+    //             text: "大四生活",
+    //             prefix: "/5-graduate",
+    //             children: [
+                    
+    //             ]
+    //         }
+    //     ]
+    // },
     {
         text: "研究僧",
         prefix: "/skill",
