@@ -1,6 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 
-* {
-  font-family: 'Noto Sans TC', 'Noto Sans', sans-serif !important;
+
+@font-face {
+    font-family: 'PingFangB';
+    src: url('/PingFang-SC-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'PingFangB', sans-serif;
 }

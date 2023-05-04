@@ -28,6 +28,9 @@ export default sidebar(
         "/university/2-freshman": [
             "/university/2-freshman/1-tutorial",
             "/university/2-freshman/2-pt",
+            "/university/2-freshman/3-banganbu",
+            "/university/2-freshman/4-xueshengzuzhi",
+            "/university/2-freshman/5-shetuan",
         ]
     }
     
