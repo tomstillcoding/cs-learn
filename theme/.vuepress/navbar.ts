@@ -36,7 +36,7 @@ export default navbar([
                         { text: "三、那些学生组织的秘密", link: "/4-xueshengzuzhi" },
                         { text: "四、那些学生社团的秘密", link: "/5-shetuan" },
                         { text: "五、大学如何考试才正确", link: "/3-test" },
-                        { text: "六、破局：转专业与双学位", link: "/3-test" },
+                        { text: "六、转专业、双学位、双专业", link: "/7-zhuan" },
                         { text: "七、军训的潜规则", link: "/3-test" },
                         { text: "八、必须习惯没有暑假", link: "/3-test" },
                         { text: "九、大学身份薅羊毛篇", link: "/3-test" },

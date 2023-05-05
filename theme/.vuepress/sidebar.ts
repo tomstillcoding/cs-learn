@@ -31,6 +31,7 @@ export default sidebar(
             "/university/2-freshman/3-banganbu",
             "/university/2-freshman/4-xueshengzuzhi",
             "/university/2-freshman/5-shetuan",
+            "/university/2-freshman/7-zhuan",
         ]
     }
     
