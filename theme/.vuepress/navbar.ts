@@ -16,6 +16,7 @@ export default navbar([
                         { text: "二、一定要考驾照", link: "/3-driver" },
                         { text: "三、购买笔记本电脑", link: "/4-pc" },
                         { text: "四、混新生圈的艺术", link: "/5-group" },
+                        // 一切东西都能够从磁力搜索中下载
                         { text: "五、玩", link: "/6-play" }
                     ]
                 },
@@ -35,12 +36,12 @@ export default navbar([
                         { text: "二、深度剖析班干部", link: "/3-banganbu" },
                         { text: "三、那些学生组织的秘密", link: "/4-xueshengzuzhi" },
                         { text: "四、那些学生社团的秘密", link: "/5-shetuan" },
-                        { text: "五、大学如何考试才正确", link: "/3-test" },
+                        { text: "五、大学如何考试才正确", link: "/6-exam" },
                         { text: "六、转专业、双学位、双专业", link: "/7-zhuan" },
-                        { text: "七、军训的潜规则", link: "/3-test" },
-                        { text: "八、必须习惯没有暑假", link: "/3-test" },
-                        { text: "九、大学身份薅羊毛篇", link: "/3-test" },
-                        { text: "十、万花筒篇", link: "/3-test" },
+                        // { text: "七、军训的潜规则", link: "/3-test" },
+                        { text: "七、必须习惯没有暑假", link: "/8-shujia" },
+                        { text: "八、珍惜你的大学身份", link: "/9-daxueshenfen" },
+                        { text: "九、万花筒篇", link: "/10-wanhuatong" },
                     ]
                 },
             ]
@@ -101,6 +102,7 @@ export default navbar([
                         { text: "二、步入人生新篇章前瞻", link: "/3-test" },
                         { text: "三、大学毕业就不再是学生", link: "/3-test" },
                         { text: "四、认识社会，认识世界", link: "/3-test" },
+                        // 毕业生福利，各个城市的落户政策等等，大学生补贴等等
                         { text: "五、万花筒篇", link: "/3-test" },
                     ]
                 },
