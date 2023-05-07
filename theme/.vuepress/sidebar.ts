@@ -36,6 +36,14 @@ export default sidebar(
             "/university/2-freshman/8-shujia",
             "/university/2-freshman/9-daxueshenfen",
             "/university/2-freshman/10-wanhuatong",
+        ],
+        "/university/3-sophomore": [
+            "/university/3-sophomore/0-tutorial",
+            "/university/3-sophomore/1-zhuanyeke",
+            "/university/3-sophomore/2-bisai",
+            "/university/3-sophomore/3-yasi",
+            "/university/3-sophomore/4-shiyanshi",
+            "/university/3-sophomore/5-rudang",
         ]
     }
     

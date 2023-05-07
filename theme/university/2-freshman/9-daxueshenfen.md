@@ -12,7 +12,7 @@ index: 1
 
 ![](https://images-tomcode-1258913748.cos.ap-guangzhou.myqcloud.com/202305062320492.png)
 
-# 😋吃喝玩乐
+## 😋吃喝玩乐
 
 - **海底捞**，69折或者88折，支付宝学生特惠认证后可以享受，受时间段限制。
 - **迪士尼**，支付宝校园生活认证后可以享受，受时间段限制。
@@ -29,7 +29,7 @@ index: 1
   - 其他城市也类似，搜索相关音乐厅、剧院的购票界面即可看到相关政策。
 - 欢迎补充👏
 
-# 🎒学生包
+## 🎒学生包
 
 各类学生优惠项目经过许多年的发展，很多学生包已经不单单只通过 edu 邮箱验证身份了，而且使用 @edu.cn 反而会降低申请成功率。 建议使用学生证、入学通知书等有学院官方标志和日期的工具来证明自己的身份。
 
@@ -42,7 +42,7 @@ index: 1
 - **[LINGO Educational Research License](http://www.lindo.com/index.php?option=com_content&view=article&id=120&Itemid=45)**, LINGO 教育授权，著名线性与非线性求解器，求解优化模型的最佳选择，数学建模必备。
 - **[Navicat 学术伙伴计划](https://www.navicat.com/en/sponsorship/education/student)**, 提供一年的 Navicat Premium 非商业授权，图形化数据库管理及发展软件，强大的可视化数据库管理工具。
 
-# ⌨️云服务优惠
+## ⌨️云服务优惠
 
 - **[Office in Education](https://products.office.com/en-us/student?tab=students)**，免费，微软家提供的免费 Office 365 教育优惠，中国大多数学校无缘申请。
 - **[阿里云 高校计划](https://developer.aliyun.com/plan/grow-up?userCode=oitiwrd3)**， 高校计划，提供高配云服务器7个月的免费使用和系列免费云计算课程+实验。
@@ -57,7 +57,7 @@ index: 1
 - **[SiteGroud 学生计划](https://www.siteground.com/student-hosting.htm)**， $1.99/月，WP 官方推荐的主机托管商提供高性能 CP 托管。
 - **[Pantheon 学生版](https://pantheon.io/edu)**，免费试用，专业高性能网站托管的学生优惠。
 
-# 💻硬件优惠
+## 💻硬件优惠
 
 - **[苹果教育商店](https://c.duomai.com/track.php?site_id=288567&aid=612&euid=&t=https%3A%2F%2Fwww.apple.com.cn%2Fcn-k12%2Fshop)**，除iPhone外的大部分设备优惠，Music 和 Pro APP 优惠，暑假末返校季还会有学生优惠大促销。
 
@@ -71,7 +71,7 @@ index: 1
 - [**戴尔学生采购**](https://spp.dell-brand.com/2020)，戴尔、外星人学生专属特价和优惠券
 - [**惠普学生教育**](https://www.hpstore.cn/laptops-tablets/student.html)，笔记本产品享受400～700左右的优惠和学生赠品。
 
-# 💿软件/订阅
+## 💿软件/订阅
 
 - **[OnTheHub 教育商店](http://www.onthehub.com/)**，优惠折扣，PD 和 VMware 的虚拟机优惠，以及更多软件优惠。
 - [**Student App Centre**](https://www.studentappcentre.com/)，优惠折扣，提供和收集PDF Expert、Boom2、Downie、CleanShot X等几十款欧美软件的教育优惠，支持邮箱和学生证。
@@ -100,13 +100,13 @@ index: 1
 - **[UU加速器 大学生福利](https://activity.uu.163.com/mapp/qm)**，完成认证后提供购买优惠
 - **[Apple Music](https://tb.j5k6.com/1eH2l)**，Apple Music 以及 Apple TV+，可以获得48个月的教育优惠。
 
-# 📝推荐软件
+## 📝推荐软件
 
 - **[CloudConvert](https://cloudconvert.com/)**，转码神器，格式齐全的在线转码利器。
 - **[Smallpdf](https://smallpdf.com/)**，专业文档转PDF，PDF转文档神器。
 - **[Canvas File Sync](https://github.com/drew-royster/canvasFileSync)**，Syncs Canvas-LMS课程文件
 
-# 📚推荐阅读
+## 📚推荐阅读
 
 - **少数派：**[在校师生福利：Apple、微软、Adobe 等产品如何通过教育优惠购买](https://sspai.com/post/39430)
 - **少数派：**[学生专属福利，你可能还不知道这些常用服务其实可以更便宜](https://sspai.com/post/43533)

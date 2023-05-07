@@ -53,14 +53,14 @@ export default navbar([
             [
                 {
                     text: "大二生活",
-                    prefix: "/2-freshman",
+                    prefix: "/3-sophomore",
                     children: [
-                        { text: "如何安排？", link: "/1-tutorial" },
-                        { text: "一、如何选择专业课", link: "/3-test" },
-                        { text: "二、好好选择竞赛和比赛", link: "/3-test" },
-                        { text: "三、雅思和四六级一样重要", link: "/3-test" },
-                        { text: "四、进实验室是搞学术必备", link: "/3-test" },
-                        { text: "五、跑步入党，必须入党", link: "/3-test" },
+                        { text: "如何安排？", link: "/0-tutorial" },
+                        { text: "一、如何选择通识和专业选修课", link: "/1-zhuanyeke" },
+                        { text: "二、如何选择竞赛和比赛", link: "/2-bisai" },
+                        { text: "三、雅思和四六级一样重要", link: "/3-yasi" },
+                        { text: "四、进实验室、发文章", link: "/4-shiyanshi" },
+                        { text: "五、跑步入党", link: "/5-rudang" },
                         { text: "六、一整年的时间选择未来", link: "/3-test" },
                         { text: "七、万花筒篇", link: "/3-test" },
                     ]
@@ -103,6 +103,7 @@ export default navbar([
                         { text: "三、大学毕业就不再是学生", link: "/3-test" },
                         { text: "四、认识社会，认识世界", link: "/3-test" },
                         // 毕业生福利，各个城市的落户政策等等，大学生补贴等等
+                        // wangzhenyu的那些文章，都可以抄过来，什么高三系列、自律早起、食谱减肥之类的、还有爱情
                         { text: "五、万花筒篇", link: "/3-test" },
                     ]
                 },
