@@ -61,8 +61,8 @@ export default navbar([
                         { text: "三、雅思和四六级一样重要", link: "/3-yasi" },
                         { text: "四、进实验室、发文章", link: "/4-shiyanshi" },
                         { text: "五、跑步入党", link: "/5-rudang" },
-                        { text: "六、一整年的时间选择未来", link: "/3-test" },
-                        { text: "七、万花筒篇", link: "/3-test" },
+                        { text: "六、一整年的时间选择未来", link: "/6-xuanze" },
+                        { text: "七、万花筒篇", link: "/7-wanhuatong" },
                     ]
                 },
             ]
@@ -197,7 +197,14 @@ export default navbar([
                 { text: "四、大厂潜规则", link: "/java" },
             ]
     },
-    { text: "转码", link: "/about/1-tutorial.md" },
+    {
+        text: "认知之路",
+        prefix: "/rich",
+        children:
+            [
+                { text: "一、普通人怎么能拥有千万资产？", link: "/1-qianwan" },
+            ]
+    },
     { text: "🔥 关于", link: "/about/1-tutorial.md" },
 
 
