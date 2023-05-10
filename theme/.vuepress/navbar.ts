@@ -74,16 +74,17 @@ export default navbar([
             [
                 {
                     text: "大三生活",
-                    prefix: "/2-freshman",
+                    prefix: "/4-junior",
                     children: [
-                        { text: "如何安排？", link: "/1-tutorial" },
-                        { text: "一、当你选择【读研】", link: "/2-pt" },
-                        { text: "二、当你选择【留学】", link: "/3-test" },
-                        { text: "三、当你选择【读博】", link: "/3-test" },
-                        { text: "四、当你选择【公务员】", link: "/3-test" },
-                        { text: "五、当你选择【工作】", link: "/3-test" },
-                        { text: "六、其实上面是个多选题", link: "/3-test" },
-                        { text: "七、万花筒篇", link: "/3-test" },
+                        { text: "如何安排？", link: "/0-tutorial" },
+                        { text: "一、没有最好的选择", link: "/1-xuanze"},
+                        { text: "二、当你选择【读研】", link: "/2-duyan" },
+                        { text: "三、当你选择【留学】", link: "/3-test" },
+                        { text: "四、当你选择【读博】", link: "/3-test" },
+                        { text: "五、当你选择【公务员】", link: "/3-test" },
+                        { text: "六、当你选择【工作】", link: "/3-test" },
+                        { text: "七、其实上面是个多选题", link: "/3-test" },
+                        { text: "八、万花筒篇", link: "/3-test" },
                     ]
                 },
             ]
