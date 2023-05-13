@@ -51,6 +51,11 @@ export default sidebar(
             "/university/4-junior/0-tutorial",
             "/university/4-junior/1-xuanze",
             "/university/4-junior/2-duyan",
+            "/university/4-junior/3-liuxue",
+            "/university/4-junior/4-gongwuyuan",
+            "/university/4-junior/5-gongzuo",
+            "/university/4-junior/6-duoxuanti",
+            "/university/4-junior/7-wanhuatong",
         ],
         "/rich": [
             "/rich/1-qianwan",
