@@ -8,7 +8,7 @@ import sidebar from "./sidebar";
 export default hopeTheme({
   hostname: "https://www.tomcode.xyz",
   logo: "/logo.png",
-//   author: "汤姆还在写代码",
+//   author: "汤姆同学",
   repo: "https://github.com/tomstillcoding/cs-learn",
   navbar: navbar,
   sidebar: sidebar,
@@ -25,9 +25,9 @@ export default hopeTheme({
   pageInfo: ["Author", "ReadingTime", "Word"],
   contributors: false,
   editLink: true,
-//   copyright: "Copyright © <汤姆还在写代码> ",
+//   copyright: "Copyright © <汤姆同学> ",
   displayFooter: true,
-  footer: '<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2022084398号</a> ｜ Copyright © <汤姆还在写代码> ',
+  footer: '<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2022084398号</a> ｜ Copyright © <汤姆同学> ',
   lastUpdated: false,
   breadcrumb: false,
 
