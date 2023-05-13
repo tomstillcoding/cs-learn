@@ -57,6 +57,16 @@ export default sidebar(
             "/university/4-junior/6-duoxuanti",
             "/university/4-junior/7-wanhuatong",
         ],
+        "/university/5-senior": [
+            "/university/5-senior/0-tutorial",
+            "/university/5-senior/1-biyesheji",
+            "/university/5-senior/2-qianzhan",
+            "/university/5-senior/3-buzaixuesheng",
+            "/university/5-senior/4-renshishehui",
+            "/university/5-senior/5-chengshi",
+            "/university/5-senior/6-hangye",
+            "/university/5-senior/7-wanhuatong",
+        ],
         "/rich": [
             "/rich/1-qianwan",
         ],

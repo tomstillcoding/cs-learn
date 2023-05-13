@@ -21,9 +21,9 @@ export default defineUserConfig({
         readmorePlugin({
             enable: true,
             blogId: '81094-7239398466281-672',
-            name: '汤姆还在写代码',
+            name: '汤姆同学',
             keyword: 'tom',
-            qrcode: 'https://images-tomcode-1258913748.cos.ap-guangzhou.myqcloud.com/202207042307558.png',
+            qrcode: 'https://images-tomcode-1258913748.cos.ap-guangzhou.myqcloud.com/202305140056210.png',
           // 文章内容的 JS 选择器，若使用的不是官方默认主题，则需要根据第三方的主题来设置
           selector: 'div.theme-hope-content',
           // 自定义的 JS 资源链接，可用于 CDN 加速

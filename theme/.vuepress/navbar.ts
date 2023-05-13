@@ -82,8 +82,8 @@ export default navbar([
                         { text: "三、当你选择【留学】", link: "/3-liuxue" },
                         { text: "四、当你选择【公务员】", link: "/4-gongwuyuan" },
                         { text: "五、当你选择【工作】", link: "/5-gongzuo" },
-                        { text: "六、其实上面是个多选题", link: "/3-test" },
-                        { text: "七、万花筒篇", link: "/3-test" },
+                        { text: "六、其实上面是个多选题", link: "/6-duoxuanti" },
+                        { text: "七、万花筒篇", link: "/7-wanhuatong" },
                     ]
                 },
             ]
@@ -95,16 +95,18 @@ export default navbar([
             [
                 {
                     text: "大四生活",
-                    prefix: "/2-freshman",
+                    prefix: "/5-senior",
                     children: [
-                        { text: "如何安排？", link: "/1-tutorial" },
-                        { text: "一、毕业设计和论文的潜规则", link: "/2-pt" },
-                        { text: "二、步入人生新篇章前瞻", link: "/3-test" },
-                        { text: "三、大学毕业就不再是学生", link: "/3-test" },
-                        { text: "四、认识社会，认识世界", link: "/3-test" },
+                        { text: "如何安排？", link: "/0-tutorial" },
+                        { text: "一、毕业设计和论文的潜规则", link: "/1-biyesheji" },
+                        { text: "二、步入人生新篇章前瞻", link: "/2-qianzhan" },
+                        { text: "三、大学毕业就不再是学生", link: "/3-buzaixuesheng" },
+                        { text: "四、认识社会，认识世界", link: "/4-renshishehui" },
+                        { text: "五、选择城市很重要", link: "/5-chengshi"},
+                        { text: "六、选择行业、公司、岗位", link: "/6-hangye"},
                         // 毕业生福利，各个城市的落户政策等等，大学生补贴等等
                         // wangzhenyu的那些文章，都可以抄过来，什么高三系列、自律早起、食谱减肥之类的、还有爱情
-                        { text: "五、万花筒篇", link: "/3-test" },
+                        { text: "七、万花筒篇", link: "/7-wanhuatong" },
                     ]
                 },
             ]
