@@ -113,21 +113,41 @@ export default navbar([
     { text: "🎓 转职必读", link: "/zhuanzhi" },
     {
         text: "研究生",
-        prefix: "/skill",
+        prefix: "/graduate",
         children:
             [
                 {
                     text: "方向选择",
-                    prefix: "",
+                    prefix: "/1-fangxiangxuanze",
                     children: [
-                        { text: "一、保研", link: "/1-backend/1-mysql" },
-                        { text: "二、考研", link: "/1-backend/2-redis" },
-                        { text: "三、跨专业", link: "/1-backend/2-redis" },
-                        { text: "四、研究生与本科生", link: "/1-backend/2-redis" },
-                        { text: "五、找导师", link: "/1-backend/2-redis" },
+                        { text: "一、研究生生活是怎样的", link: "/1-shenghuo" },
+                        { text: "二、为什么要读研", link: "/2-weishenme" },
+                        { text: "三、读研优势劣势分析", link: "/3-fenxi"},
+                        { text: "四、如何联系导师", link: "/4-lianxidaoshi"},
+                    ]
+                },
+                {
+                    text: "保研篇",
+                    prefix: "/2-baoyanpian",
+                    children: [
+                        { text: "一、如何保研", link: "/1-ruhe" },
+                        { text: "二、保研时间安排", link: "/2-shijiananpai" },
+                        { text: "三、夏令营", link: "/3-xialingying"},
+                        { text: "四、确定保研后该做什么", link: "/4-quedingbaoyan" },
+                    ]
+                },
+                {
+                    text: "考研篇",
+                    prefix: "/3-kaoyanpian",
+                    children: [
+                        { text: "一、如何考研", link: "/1-ruhekaoyan" },
+                        { text: "二、考研时间安排", link: "/2-kaoyanshijian" },
+                        { text: "三、跨考研究生", link: "/3-kuakao" },
+                        { text: "四、确定考上后该做什么", link: "/quedingkaoshang" },
                     ]
                 }
-            ]
+            ],
+            
     },
     {
         text: "就业",

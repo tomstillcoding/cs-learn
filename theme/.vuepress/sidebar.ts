@@ -68,6 +68,24 @@ export default sidebar(
             "/university/5-senior/5-hangye",
             "/university/5-senior/6-wanhuatong",
         ],
+        "/graduate/1-fangxiangxuanze": [
+            "/graduate/1-fangxiangxuanze/1-shenghuo",
+            "/graduate/1-fangxiangxuanze/2-weishenme",
+            "/graduate/1-fangxiangxuanze/3-fenxi",
+            "/graduate/1-fangxiangxuanze/4-lianxidaoshi"
+        ],
+        "/graduate/2-baoyanpian": [
+            "/graduate/2-baoyanpian/1-ruhe",
+            "/graduate/2-baoyanpian/2-shijiananpai",
+            "/graduate/2-baoyanpian/3-xialingying",
+            "/graduate/2-baoyanpian/4-quedingbaoyan"
+        ],
+        "/graduate/3-kaoyanpian": [
+            "/graduate/3-kaoyanpian/1-ruhekaoyan",
+            "/graduate/3-kaoyanpian/2-kaoyanshijian",
+            "/graduate/3-kaoyanpian/3-kuakao",
+            "/graduate/3-kaoyanpian/4-quedingkaoshang"
+        ],
         "/rich": [
             "/rich/1-qianwan",
         ],
