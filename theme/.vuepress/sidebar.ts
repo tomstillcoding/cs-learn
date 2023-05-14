@@ -23,7 +23,8 @@ export default sidebar(
             "/university/1-summer/3-driver",
             "/university/1-summer/4-pc",
             "/university/1-summer/5-group",
-            "/university/1-summer/6-play",
+            "/university/1-summer/6-biye",
+            "/university/1-summer/7-cili",
         ],
         "/university/2-freshman": [
             "/university/2-freshman/1-tutorial",
@@ -60,12 +61,12 @@ export default sidebar(
         "/university/5-senior": [
             "/university/5-senior/0-tutorial",
             "/university/5-senior/1-biyesheji",
-            "/university/5-senior/2-qianzhan",
-            "/university/5-senior/3-buzaixuesheng",
-            "/university/5-senior/4-renshishehui",
-            "/university/5-senior/5-chengshi",
-            "/university/5-senior/6-hangye",
-            "/university/5-senior/7-wanhuatong",
+            "/university/5-senior/2-lvxing",
+            "/university/5-senior/3-xueshengsiwei",
+            // "/university/5-senior/4-renshishehui",
+            "/university/5-senior/4-chengshi",
+            "/university/5-senior/5-hangye",
+            "/university/5-senior/6-wanhuatong",
         ],
         "/rich": [
             "/rich/1-qianwan",
