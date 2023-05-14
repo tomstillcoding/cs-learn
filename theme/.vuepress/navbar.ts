@@ -124,6 +124,7 @@ export default navbar([
                         { text: "二、为什么要读研", link: "/2-weishenme" },
                         { text: "三、读研优势劣势分析", link: "/3-fenxi"},
                         { text: "四、如何联系导师", link: "/4-lianxidaoshi"},
+                        { text: "五、学硕和专硕", link: "/5-qubie"},
                     ]
                 },
                 {
@@ -143,7 +144,7 @@ export default navbar([
                         { text: "一、如何考研", link: "/1-ruhekaoyan" },
                         { text: "二、考研时间安排", link: "/2-kaoyanshijian" },
                         { text: "三、跨考研究生", link: "/3-kuakao" },
-                        { text: "四、确定考上后该做什么", link: "/quedingkaoshang" },
+                        { text: "四、确定考上后该做什么", link: "/4-quedingkaoshang" },
                     ]
                 }
             ],

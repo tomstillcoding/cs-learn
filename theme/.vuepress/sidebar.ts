@@ -72,7 +72,8 @@ export default sidebar(
             "/graduate/1-fangxiangxuanze/1-shenghuo",
             "/graduate/1-fangxiangxuanze/2-weishenme",
             "/graduate/1-fangxiangxuanze/3-fenxi",
-            "/graduate/1-fangxiangxuanze/4-lianxidaoshi"
+            "/graduate/1-fangxiangxuanze/4-lianxidaoshi",
+            "/graduate/1-fangxiangxuanze/5-qubie",
         ],
         "/graduate/2-baoyanpian": [
             "/graduate/2-baoyanpian/1-ruhe",
