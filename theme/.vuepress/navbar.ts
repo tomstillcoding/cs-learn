@@ -122,19 +122,19 @@ export default navbar([
                     children: [
                         { text: "一、研究生生活是怎样的", link: "/1-shenghuo" },
                         { text: "二、为什么要读研", link: "/2-weishenme" },
-                        { text: "三、读研优势劣势分析", link: "/3-fenxi"},
-                        { text: "四、如何联系导师", link: "/4-lianxidaoshi"},
-                        { text: "五、学硕和专硕", link: "/5-qubie"},
+                        // { text: "三、读研优势劣势分析", link: "/3-fenxi"},
+                        { text: "三、如何选择导师", link: "/3-xuandaoshi"},
+                        { text: "四、学硕和专硕", link: "/4-qubie"},
                     ]
                 },
                 {
                     text: "保研篇",
                     prefix: "/2-baoyanpian",
                     children: [
-                        { text: "一、如何保研", link: "/1-ruhe" },
-                        { text: "二、保研时间安排", link: "/2-shijiananpai" },
-                        { text: "三、夏令营", link: "/3-xialingying"},
-                        { text: "四、确定保研后该做什么", link: "/4-quedingbaoyan" },
+                        { text: "一、保研时间安排", link: "/1-shijiananpai" },
+                        // { text: "二、认真选导师", link: "/2-xialingying"},
+                        { text: "三、简历、文书模板", link: "/2-wenshu" },
+                        { text: "四、夏令营流程", link: "/3-xialingyingliucheng"},
                     ]
                 },
                 {
