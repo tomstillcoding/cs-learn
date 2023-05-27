@@ -3,13 +3,16 @@ home: true
 title: 首页
 heroImage: /logo.png
 actions:
-  - text: 指南
-    link: /about/1-tutorial
+  - text: 💎 指南
+    link: /pay/daxuezhidao
     type: primary
-  - text: 关于作者
-    link: /about/2-introduce
+  - text: 📚 必读
+    link: /pay/bidu
     type: secondary
 features:
+  - title: 高考暑假
+    details: 从高考结束的那一刻，不论结果如何，你的大学生活基本上就算是开始了。
+
   - title: 大学
     details: 这里涵盖了你在大学里面可能遇到的一切，如果提前知道一些大学里的潜规则，你就不会浪费时间在没有意义，甚至错误的事情上。
     
@@ -25,7 +28,7 @@ features:
   - title: 留学
     details: 美欧澳新港日，20万也能读QS排名50的世界学校？工作几年后还能留学？成绩真的没有你想的那么差！润？这是真的可以润！
 
-  - title: 大厂专项
+  - title: 大厂篇
     details: 专门针对毕业预期进入大厂的同学提供服务，了解BAT某个部门是否有坑？哪个地方是PUA重灾区？哪里的前途钱途最好？简历修改？相信选择的重要性，用人脉为你解答问题！
 
 ---

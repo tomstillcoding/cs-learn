@@ -27,7 +27,7 @@ export default hopeTheme({
   editLink: true,
 //   copyright: "Copyright © <汤姆还在写代码> ",
   displayFooter: true,
-  footer: '<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2022084398号</a> ｜ Copyright © <汤姆同学> ',
+  footer: '<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2022084398号-2</a> ｜ Copyright © <汤姆同学> ',
   lastUpdated: false,
   breadcrumb: false,
 
